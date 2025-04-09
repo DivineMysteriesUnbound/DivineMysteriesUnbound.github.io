@@ -1,0 +1,182 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #1f1b2d; /* Deep Purple */
+    color: #fff;
+}
+
+/* Header Section */
+.header {
+    background-color: #9c4e97; /* Purple */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #f4d03f; /* Gold */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f4d03f;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #6a2e92; /* Purple */
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #f4d03f; /* Gold */
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #f4d03f; /* Gold */
+    color: #1f1b2d; /* Deep Purple */
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #2a1d3c; /* Dark Purple */
+}
+
+.about h2 {
+    font-size: 36px;
+    color: #f4d03f; /* Gold */
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Blog Section */
+.blog {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #9c4e97; /* Purple */
+}
+
+.blog h2 {
+    font-size: 36px;
+    color: #f4d03f; /* Gold */
+    margin-bottom: 30px;
+}
+
+.blog .post {
+    margin: 20px;
+}
+
+.blog .post h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.blog .post p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.blog .btn {
+    background-color: #f4d03f; /* Gold */
+    color: #1f1b2d; /* Deep Purple */
+    padding: 8px 16px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #6a2e92; /* Purple */
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #f4d03f; /* Gold */
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact .btn {
+    background-color: #f4d03f; /* Gold */
+    color: #1f1b2d; /* Deep Purple */
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    background-color: #2a1d3c; /* Dark Purple */
+    padding: 20px;
+    color: #fff;
+}
